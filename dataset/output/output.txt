@@ -1,0 +1,537 @@
+---palavra <melhor>---
+
+Está presente no texto 1
+e também é um dos top K elementos.
+Frequência: 200 vezes
+
+arvore binaria: 
+
+<sentido>-<134>; <utilizados>-<134>; <necessidade>-<134>; <integridade>-<134>; <rede>-<134>; <envolvidos>-<134>; <tempo>-<199>; <assim>-<199>; <hardware>-<199>; <desenvolvimento>-<200>; <sistema>-<200>; <impacto>-<200>; <aumento>-<200>; <informações>-<201>; <novas>-<201>; <dados>-<201>; <ti>-<201>; <implantação>-<266>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore AVL: 
+
+<sistema>-<200>; <sentido>-<134>; <integridade>-<134>; <rede>-<134>; <envolvidos>-<134>; <utilizados>-<134>; <necessidade>-<134>; <tempo>-<199>; <assim>-<199>; <hardware>-<199>; <impacto>-<200>; <aumento>-<200>; <novas>-<201>; <ti>-<201>; <desenvolvimento>-<200>; <dados>-<201>; <implantação>-<266>; <informações>-<201>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore Huffman: 
+
+<utilização>-<399>; <impacto>-<200>; <sistema>-<200>; <desenvolvimento>-<200>; <novas>-<201>; <informações>-<201>; <ti>-<201>; <dados>-<201>; <implantação>-<266>; <rede>-<134>; <integridade>-<134>; <segurança>-<268>; <envolvidos>-<134>; <utilizados>-<134>; <sentido>-<134>; <necessidade>-<134>; <tempo>-<199>; <hardware>-<199>; <assim>-<199>; <aumento>-<200>; 
+
+Está presente no texto 2
+e também é um dos top K elementos.
+Frequência: 201 vezes
+
+arvore binaria: 
+
+<problemas>-<134>; <dúvidas>-<134>; <rede>-<134>; <existem>-<134>; <pode>-<134>; <sobre>-<134>; <impacto>-<199>; <sistema>-<199>; <desenvolvimento>-<199>; <novas>-<199>; <tempo>-<199>; <hardware>-<200>; <informações>-<200>; <dados>-<201>; <ti>-<201>; <aumento>-<201>; <assim>-<201>; <implantação>-<267>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore AVL: 
+
+<hardware>-<200>; <problemas>-<134>; <existem>-<134>; <pode>-<134>; <sobre>-<134>; <dúvidas>-<134>; <rede>-<134>; <sistema>-<199>; <novas>-<199>; <tempo>-<199>; <desenvolvimento>-<199>; <informações>-<200>; <impacto>-<199>; <ti>-<201>; <aumento>-<201>; <assim>-<201>; <implantação>-<267>; <dados>-<201>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore Huffman: 
+
+<sistema>-<199>; <informações>-<200>; <utilização>-<400>; <hardware>-<200>; <ti>-<201>; <dados>-<201>; <assim>-<201>; <aumento>-<201>; <implantação>-<267>; <problemas>-<134>; <rede>-<134>; <pode>-<134>; <existem>-<134>; <sobre>-<134>; <dúvidas>-<134>; <segurança>-<268>; <novas>-<199>; <desenvolvimento>-<199>; <impacto>-<199>; <tempo>-<199>; 
+
+Está presente no texto 3
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<princípio>-<91>; <virtual>-<93>; <assim>-<94>; <maneira>-<95>; <pode>-<95>; <wittgenstein>-<95>; <quanto>-<95>; <vista>-<96>; <imanente>-<104>; <sentido>-<110>; <segundo>-<114>; <sobre>-<114>; <pensamento>-<115>; <sistema>-<115>; <priori>-<125>; <modo>-<129>; <mundo>-<134>; <condição>-<134>; <sujeito>-<158>; <teoria>-<176>; 
+
+arvore AVL: 
+
+<pode>-<95>; <assim>-<94>; <virtual>-<93>; <princípio>-<91>; <wittgenstein>-<95>; <quanto>-<95>; <pensamento>-<115>; <sentido>-<110>; <vista>-<96>; <maneira>-<95>; <imanente>-<104>; <segundo>-<114>; <sobre>-<114>; <sistema>-<115>; <mundo>-<134>; <modo>-<129>; <priori>-<125>; <condição>-<134>; <sujeito>-<158>; <teoria>-<176>; 
+
+arvore Huffman: 
+
+<imanente>-<104>; <sentido>-<110>; <sobre>-<114>; <segundo>-<114>; <sistema>-<115>; <pensamento>-<115>; <priori>-<125>; <modo>-<129>; <condição>-<134>; <mundo>-<134>; <sujeito>-<158>; <teoria>-<176>; <princípio>-<91>; <virtual>-<93>; <assim>-<94>; <quanto>-<95>; <wittgenstein>-<95>; <pode>-<95>; <maneira>-<95>; <vista>-<96>; 
+
+Está presente no texto 4
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<relação>-<89>; <respeito>-<90>; <maneira>-<95>; <wittgenstein>-<95>; <vista>-<95>; <possível>-<95>; <pode>-<96>; <princípio>-<97>; <imanente>-<109>; <sentido>-<111>; <segundo>-<114>; <sobre>-<114>; <pensamento>-<115>; <sistema>-<119>; <modo>-<129>; <condição>-<133>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <teoria>-<192>; 
+
+arvore AVL: 
+
+<princípio>-<97>; <vista>-<95>; <respeito>-<90>; <relação>-<89>; <possível>-<95>; <maneira>-<95>; <wittgenstein>-<95>; <pode>-<96>; <condição>-<133>; <segundo>-<114>; <sentido>-<111>; <imanente>-<109>; <sobre>-<114>; <sistema>-<119>; <pensamento>-<115>; <modo>-<129>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <teoria>-<192>; 
+
+arvore Huffman: 
+
+<imanente>-<109>; <sentido>-<111>; <sobre>-<114>; <segundo>-<114>; <pensamento>-<115>; <sistema>-<119>; <modo>-<129>; <condição>-<133>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <relação>-<89>; <respeito>-<90>; <vista>-<95>; <wittgenstein>-<95>; <maneira>-<95>; <possível>-<95>; <teoria>-<192>; <pode>-<96>; <princípio>-<97>; 
+
+Está presente no texto 5
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<determinação>-<134>; <geral>-<134>; <longo>-<134>; <modo>-<134>; <educação>-<134>; <impacto>-<134>; <formação>-<134>; <podemos>-<134>; <importância>-<134>; <política>-<198>; <processo>-<198>; <eleitores>-<199>; <metas>-<199>; <sentido>-<200>; <atual>-<201>; <saúde>-<201>; <melhoria>-<201>; <assim>-<201>; <políticas>-<267>; <político>-<400>; 
+
+arvore AVL: 
+
+<modo>-<134>; <impacto>-<134>; <podemos>-<134>; <importância>-<134>; <formação>-<134>; <educação>-<134>; <sentido>-<200>; <processo>-<198>; <geral>-<134>; <longo>-<134>; <determinação>-<134>; <metas>-<199>; <política>-<198>; <eleitores>-<199>; <saúde>-<201>; <melhoria>-<201>; <assim>-<201>; <políticas>-<267>; <atual>-<201>; <político>-<400>; 
+
+arvore Huffman: 
+
+<política>-<198>; <metas>-<199>; <eleitores>-<199>; <sentido>-<200>; <político>-<400>; <saúde>-<201>; <melhoria>-<201>; <assim>-<201>; <atual>-<201>; <políticas>-<267>; <determinação>-<134>; <longo>-<134>; <modo>-<134>; <importância>-<134>; <geral>-<134>; <educação>-<134>; <formação>-<134>; <impacto>-<134>; <podemos>-<134>; <processo>-<198>; 
+
+Está presente no texto 6
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<condições>-<133>; <atual>-<133>; <importante>-<133>; <expansão>-<133>; <ressaltar>-<133>; <modo>-<134>; <pode>-<134>; <melhoria>-<134>; <necessidade>-<134>; <estabelecimento>-<134>; <podemos>-<134>; <quadros>-<134>; <impacto>-<134>; <sistema>-<134>; <importância>-<134>; <formas>-<134>; <informações>-<134>; <assim>-<199>; <sentido>-<200>; <processo>-<200>; 
+
+arvore AVL: 
+
+<podemos>-<134>; <atual>-<133>; <expansão>-<133>; <ressaltar>-<133>; <importante>-<133>; <importância>-<134>; <informações>-<134>; <condições>-<133>; <formas>-<134>; <impacto>-<134>; <sistema>-<134>; <quadros>-<134>; <pode>-<134>; <necessidade>-<134>; <estabelecimento>-<134>; <melhoria>-<134>; <assim>-<199>; <modo>-<134>; <sentido>-<200>; <processo>-<200>; 
+
+arvore Huffman: 
+
+<estabelecimento>-<134>; <necessidade>-<134>; <quadros>-<134>; <podemos>-<134>; <informações>-<134>; <modo>-<134>; <importância>-<134>; <sistema>-<134>; <melhoria>-<134>; <assim>-<199>; <processo>-<200>; <sentido>-<200>; <atual>-<133>; <ressaltar>-<133>; <condições>-<133>; <importante>-<133>; <expansão>-<133>; <pode>-<134>; <impacto>-<134>; <formas>-<134>; 
+
+----------------------------------
+
+---palavra <equipamentos>---
+
+Está presente no texto 1
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<sentido>-<134>; <utilizados>-<134>; <integridade>-<134>; <rede>-<134>; <envolvidos>-<134>; <tempo>-<199>; <assim>-<199>; <hardware>-<199>; <melhor>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <impacto>-<200>; <aumento>-<200>; <informações>-<201>; <ti>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore AVL: 
+
+<melhor>-<200>; <assim>-<199>; <utilizados>-<134>; <rede>-<134>; <envolvidos>-<134>; <integridade>-<134>; <sentido>-<134>; <hardware>-<199>; <impacto>-<200>; <tempo>-<199>; <aumento>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <ti>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <informações>-<201>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore Huffman: 
+
+<sistema>-<200>; <desenvolvimento>-<200>; <aumento>-<200>; <impacto>-<200>; <melhor>-<200>; <ti>-<201>; <informações>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <sentido>-<134>; <integridade>-<134>; <utilizados>-<134>; <envolvidos>-<134>; <segurança>-<268>; <rede>-<134>; <assim>-<199>; <tempo>-<199>; <hardware>-<199>; <utilização>-<399>; 
+
+Está presente no texto 2
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<problemas>-<134>; <dúvidas>-<134>; <existem>-<134>; <pode>-<134>; <sobre>-<134>; <impacto>-<199>; <sistema>-<199>; <desenvolvimento>-<199>; <novas>-<199>; <tempo>-<199>; <hardware>-<200>; <informações>-<200>; <dados>-<201>; <aumento>-<201>; <ti>-<201>; <assim>-<201>; <melhor>-<201>; <implantação>-<267>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore AVL: 
+
+<novas>-<199>; <dúvidas>-<134>; <pode>-<134>; <sobre>-<134>; <existem>-<134>; <problemas>-<134>; <tempo>-<199>; <assim>-<201>; <informações>-<200>; <sistema>-<199>; <desenvolvimento>-<199>; <impacto>-<199>; <hardware>-<200>; <melhor>-<201>; <implantação>-<267>; <aumento>-<201>; <ti>-<201>; <dados>-<201>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore Huffman: 
+
+<utilização>-<400>; <informações>-<200>; <hardware>-<200>; <dados>-<201>; <melhor>-<201>; <ti>-<201>; <aumento>-<201>; <assim>-<201>; <implantação>-<267>; <dúvidas>-<134>; <sobre>-<134>; <problemas>-<134>; <existem>-<134>; <segurança>-<268>; <pode>-<134>; <sistema>-<199>; <impacto>-<199>; <tempo>-<199>; <novas>-<199>; <desenvolvimento>-<199>; 
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <firewall>---
+
+Está presente no texto 1
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<sentido>-<134>; <utilizados>-<134>; <integridade>-<134>; <rede>-<134>; <envolvidos>-<134>; <tempo>-<199>; <assim>-<199>; <hardware>-<199>; <melhor>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <impacto>-<200>; <aumento>-<200>; <informações>-<201>; <ti>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore AVL: 
+
+<melhor>-<200>; <assim>-<199>; <utilizados>-<134>; <rede>-<134>; <envolvidos>-<134>; <integridade>-<134>; <sentido>-<134>; <hardware>-<199>; <impacto>-<200>; <tempo>-<199>; <aumento>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <ti>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <informações>-<201>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore Huffman: 
+
+<sistema>-<200>; <desenvolvimento>-<200>; <aumento>-<200>; <impacto>-<200>; <melhor>-<200>; <ti>-<201>; <informações>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <sentido>-<134>; <integridade>-<134>; <utilizados>-<134>; <envolvidos>-<134>; <segurança>-<268>; <rede>-<134>; <assim>-<199>; <tempo>-<199>; <hardware>-<199>; <utilização>-<399>; 
+
+Está presente no texto 2
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<problemas>-<134>; <dúvidas>-<134>; <existem>-<134>; <pode>-<134>; <sobre>-<134>; <impacto>-<199>; <sistema>-<199>; <desenvolvimento>-<199>; <novas>-<199>; <tempo>-<199>; <hardware>-<200>; <informações>-<200>; <dados>-<201>; <aumento>-<201>; <ti>-<201>; <assim>-<201>; <melhor>-<201>; <implantação>-<267>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore AVL: 
+
+<novas>-<199>; <dúvidas>-<134>; <pode>-<134>; <sobre>-<134>; <existem>-<134>; <problemas>-<134>; <tempo>-<199>; <assim>-<201>; <informações>-<200>; <sistema>-<199>; <desenvolvimento>-<199>; <impacto>-<199>; <hardware>-<200>; <melhor>-<201>; <implantação>-<267>; <aumento>-<201>; <ti>-<201>; <dados>-<201>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore Huffman: 
+
+<utilização>-<400>; <informações>-<200>; <hardware>-<200>; <dados>-<201>; <melhor>-<201>; <ti>-<201>; <aumento>-<201>; <assim>-<201>; <implantação>-<267>; <dúvidas>-<134>; <sobre>-<134>; <problemas>-<134>; <existem>-<134>; <segurança>-<268>; <pode>-<134>; <sistema>-<199>; <impacto>-<199>; <tempo>-<199>; <novas>-<199>; <desenvolvimento>-<199>; 
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <computador>---
+
+Não está presente no texto 1.
+
+Não está presente no texto 2.
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <computacional>---
+
+Está presente no texto 1
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<sentido>-<134>; <utilizados>-<134>; <integridade>-<134>; <rede>-<134>; <envolvidos>-<134>; <tempo>-<199>; <assim>-<199>; <hardware>-<199>; <melhor>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <impacto>-<200>; <aumento>-<200>; <informações>-<201>; <ti>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore AVL: 
+
+<melhor>-<200>; <assim>-<199>; <utilizados>-<134>; <rede>-<134>; <envolvidos>-<134>; <integridade>-<134>; <sentido>-<134>; <hardware>-<199>; <impacto>-<200>; <tempo>-<199>; <aumento>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <ti>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <informações>-<201>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore Huffman: 
+
+<sistema>-<200>; <desenvolvimento>-<200>; <aumento>-<200>; <impacto>-<200>; <melhor>-<200>; <ti>-<201>; <informações>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <sentido>-<134>; <integridade>-<134>; <utilizados>-<134>; <envolvidos>-<134>; <segurança>-<268>; <rede>-<134>; <assim>-<199>; <tempo>-<199>; <hardware>-<199>; <utilização>-<399>; 
+
+Está presente no texto 2
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<problemas>-<134>; <dúvidas>-<134>; <existem>-<134>; <pode>-<134>; <sobre>-<134>; <impacto>-<199>; <sistema>-<199>; <desenvolvimento>-<199>; <novas>-<199>; <tempo>-<199>; <hardware>-<200>; <informações>-<200>; <dados>-<201>; <aumento>-<201>; <ti>-<201>; <assim>-<201>; <melhor>-<201>; <implantação>-<267>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore AVL: 
+
+<novas>-<199>; <dúvidas>-<134>; <pode>-<134>; <sobre>-<134>; <existem>-<134>; <problemas>-<134>; <tempo>-<199>; <assim>-<201>; <informações>-<200>; <sistema>-<199>; <desenvolvimento>-<199>; <impacto>-<199>; <hardware>-<200>; <melhor>-<201>; <implantação>-<267>; <aumento>-<201>; <ti>-<201>; <dados>-<201>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore Huffman: 
+
+<utilização>-<400>; <informações>-<200>; <hardware>-<200>; <dados>-<201>; <melhor>-<201>; <ti>-<201>; <aumento>-<201>; <assim>-<201>; <implantação>-<267>; <dúvidas>-<134>; <sobre>-<134>; <problemas>-<134>; <existem>-<134>; <segurança>-<268>; <pode>-<134>; <sistema>-<199>; <impacto>-<199>; <tempo>-<199>; <novas>-<199>; <desenvolvimento>-<199>; 
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <política>---
+
+Não está presente no texto 1.
+
+Não está presente no texto 2.
+
+Está presente no texto 3
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<princípio>-<91>; <virtual>-<93>; <assim>-<94>; <maneira>-<95>; <pode>-<95>; <wittgenstein>-<95>; <quanto>-<95>; <vista>-<96>; <imanente>-<104>; <sentido>-<110>; <segundo>-<114>; <sobre>-<114>; <pensamento>-<115>; <sistema>-<115>; <priori>-<125>; <modo>-<129>; <mundo>-<134>; <condição>-<134>; <sujeito>-<158>; <teoria>-<176>; 
+
+arvore AVL: 
+
+<pode>-<95>; <assim>-<94>; <virtual>-<93>; <princípio>-<91>; <wittgenstein>-<95>; <quanto>-<95>; <pensamento>-<115>; <sentido>-<110>; <vista>-<96>; <maneira>-<95>; <imanente>-<104>; <segundo>-<114>; <sobre>-<114>; <sistema>-<115>; <mundo>-<134>; <modo>-<129>; <priori>-<125>; <condição>-<134>; <sujeito>-<158>; <teoria>-<176>; 
+
+arvore Huffman: 
+
+<imanente>-<104>; <sentido>-<110>; <sobre>-<114>; <segundo>-<114>; <sistema>-<115>; <pensamento>-<115>; <priori>-<125>; <modo>-<129>; <condição>-<134>; <mundo>-<134>; <sujeito>-<158>; <teoria>-<176>; <princípio>-<91>; <virtual>-<93>; <assim>-<94>; <quanto>-<95>; <wittgenstein>-<95>; <pode>-<95>; <maneira>-<95>; <vista>-<96>; 
+
+Está presente no texto 4
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<relação>-<89>; <respeito>-<90>; <maneira>-<95>; <wittgenstein>-<95>; <vista>-<95>; <possível>-<95>; <pode>-<96>; <princípio>-<97>; <imanente>-<109>; <sentido>-<111>; <segundo>-<114>; <sobre>-<114>; <pensamento>-<115>; <sistema>-<119>; <modo>-<129>; <condição>-<133>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <teoria>-<192>; 
+
+arvore AVL: 
+
+<princípio>-<97>; <vista>-<95>; <respeito>-<90>; <relação>-<89>; <possível>-<95>; <maneira>-<95>; <wittgenstein>-<95>; <pode>-<96>; <condição>-<133>; <segundo>-<114>; <sentido>-<111>; <imanente>-<109>; <sobre>-<114>; <sistema>-<119>; <pensamento>-<115>; <modo>-<129>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <teoria>-<192>; 
+
+arvore Huffman: 
+
+<imanente>-<109>; <sentido>-<111>; <sobre>-<114>; <segundo>-<114>; <pensamento>-<115>; <sistema>-<119>; <modo>-<129>; <condição>-<133>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <relação>-<89>; <respeito>-<90>; <vista>-<95>; <wittgenstein>-<95>; <maneira>-<95>; <possível>-<95>; <teoria>-<192>; <pode>-<96>; <princípio>-<97>; 
+
+Está presente no texto 5
+e também é um dos top K elementos.
+Frequência: 198 vezes
+
+arvore binaria: 
+
+<determinação>-<134>; <geral>-<134>; <longo>-<134>; <modo>-<134>; <educação>-<134>; <impacto>-<134>; <condições>-<134>; <formação>-<134>; <podemos>-<134>; <importância>-<134>; <processo>-<198>; <eleitores>-<199>; <metas>-<199>; <sentido>-<200>; <melhoria>-<201>; <saúde>-<201>; <assim>-<201>; <atual>-<201>; <políticas>-<267>; <político>-<400>; 
+
+arvore AVL: 
+
+<modo>-<134>; <formação>-<134>; <podemos>-<134>; <importância>-<134>; <impacto>-<134>; <condições>-<134>; <educação>-<134>; <sentido>-<200>; <processo>-<198>; <geral>-<134>; <longo>-<134>; <determinação>-<134>; <eleitores>-<199>; <metas>-<199>; <saúde>-<201>; <assim>-<201>; <atual>-<201>; <políticas>-<267>; <melhoria>-<201>; <político>-<400>; 
+
+arvore Huffman: 
+
+<processo>-<198>; <metas>-<199>; <eleitores>-<199>; <sentido>-<200>; <político>-<400>; <assim>-<201>; <saúde>-<201>; <atual>-<201>; <melhoria>-<201>; <políticas>-<267>; <podemos>-<134>; <formação>-<134>; <condições>-<134>; <impacto>-<134>; <importância>-<134>; <modo>-<134>; <geral>-<134>; <educação>-<134>; <determinação>-<134>; <longo>-<134>; 
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <impacto>---
+
+Está presente no texto 1
+e também é um dos top K elementos.
+Frequência: 200 vezes
+
+arvore binaria: 
+
+<sentido>-<134>; <utilizados>-<134>; <integridade>-<134>; <rede>-<134>; <necessidade>-<134>; <envolvidos>-<134>; <tempo>-<199>; <assim>-<199>; <hardware>-<199>; <melhor>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <aumento>-<200>; <informações>-<201>; <novas>-<201>; <dados>-<201>; <ti>-<201>; <implantação>-<266>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore AVL: 
+
+<desenvolvimento>-<200>; <sentido>-<134>; <rede>-<134>; <necessidade>-<134>; <envolvidos>-<134>; <utilizados>-<134>; <integridade>-<134>; <tempo>-<199>; <assim>-<199>; <hardware>-<199>; <sistema>-<200>; <aumento>-<200>; <novas>-<201>; <ti>-<201>; <melhor>-<200>; <dados>-<201>; <implantação>-<266>; <informações>-<201>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore Huffman: 
+
+<utilização>-<399>; <sistema>-<200>; <desenvolvimento>-<200>; <melhor>-<200>; <novas>-<201>; <informações>-<201>; <ti>-<201>; <dados>-<201>; <implantação>-<266>; <necessidade>-<134>; <rede>-<134>; <segurança>-<268>; <envolvidos>-<134>; <utilizados>-<134>; <sentido>-<134>; <integridade>-<134>; <tempo>-<199>; <hardware>-<199>; <assim>-<199>; <aumento>-<200>; 
+
+Está presente no texto 2
+e também é um dos top K elementos.
+Frequência: 199 vezes
+
+arvore binaria: 
+
+<problemas>-<134>; <dúvidas>-<134>; <rede>-<134>; <existem>-<134>; <pode>-<134>; <sobre>-<134>; <sistema>-<199>; <desenvolvimento>-<199>; <novas>-<199>; <tempo>-<199>; <hardware>-<200>; <informações>-<200>; <dados>-<201>; <ti>-<201>; <melhor>-<201>; <aumento>-<201>; <assim>-<201>; <implantação>-<267>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore AVL: 
+
+<hardware>-<200>; <problemas>-<134>; <existem>-<134>; <pode>-<134>; <sobre>-<134>; <dúvidas>-<134>; <rede>-<134>; <desenvolvimento>-<199>; <novas>-<199>; <tempo>-<199>; <informações>-<200>; <sistema>-<199>; <ti>-<201>; <aumento>-<201>; <assim>-<201>; <melhor>-<201>; <implantação>-<267>; <dados>-<201>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore Huffman: 
+
+<utilização>-<400>; <informações>-<200>; <hardware>-<200>; <melhor>-<201>; <ti>-<201>; <dados>-<201>; <assim>-<201>; <aumento>-<201>; <implantação>-<267>; <problemas>-<134>; <rede>-<134>; <pode>-<134>; <existem>-<134>; <segurança>-<268>; <sobre>-<134>; <dúvidas>-<134>; <sistema>-<199>; <tempo>-<199>; <novas>-<199>; <desenvolvimento>-<199>; 
+
+Está presente no texto 3
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<princípio>-<91>; <virtual>-<93>; <assim>-<94>; <maneira>-<95>; <pode>-<95>; <wittgenstein>-<95>; <quanto>-<95>; <vista>-<96>; <imanente>-<104>; <sentido>-<110>; <segundo>-<114>; <sobre>-<114>; <pensamento>-<115>; <sistema>-<115>; <priori>-<125>; <modo>-<129>; <mundo>-<134>; <condição>-<134>; <sujeito>-<158>; <teoria>-<176>; 
+
+arvore AVL: 
+
+<pode>-<95>; <assim>-<94>; <virtual>-<93>; <princípio>-<91>; <wittgenstein>-<95>; <quanto>-<95>; <pensamento>-<115>; <sentido>-<110>; <vista>-<96>; <maneira>-<95>; <imanente>-<104>; <segundo>-<114>; <sobre>-<114>; <sistema>-<115>; <mundo>-<134>; <modo>-<129>; <priori>-<125>; <condição>-<134>; <sujeito>-<158>; <teoria>-<176>; 
+
+arvore Huffman: 
+
+<imanente>-<104>; <sentido>-<110>; <sobre>-<114>; <segundo>-<114>; <sistema>-<115>; <pensamento>-<115>; <priori>-<125>; <modo>-<129>; <condição>-<134>; <mundo>-<134>; <sujeito>-<158>; <teoria>-<176>; <princípio>-<91>; <virtual>-<93>; <assim>-<94>; <quanto>-<95>; <wittgenstein>-<95>; <pode>-<95>; <maneira>-<95>; <vista>-<96>; 
+
+Está presente no texto 4
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<relação>-<89>; <respeito>-<90>; <maneira>-<95>; <wittgenstein>-<95>; <vista>-<95>; <possível>-<95>; <pode>-<96>; <princípio>-<97>; <imanente>-<109>; <sentido>-<111>; <segundo>-<114>; <sobre>-<114>; <pensamento>-<115>; <sistema>-<119>; <modo>-<129>; <condição>-<133>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <teoria>-<192>; 
+
+arvore AVL: 
+
+<princípio>-<97>; <vista>-<95>; <respeito>-<90>; <relação>-<89>; <possível>-<95>; <maneira>-<95>; <wittgenstein>-<95>; <pode>-<96>; <condição>-<133>; <segundo>-<114>; <sentido>-<111>; <imanente>-<109>; <sobre>-<114>; <sistema>-<119>; <pensamento>-<115>; <modo>-<129>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <teoria>-<192>; 
+
+arvore Huffman: 
+
+<imanente>-<109>; <sentido>-<111>; <sobre>-<114>; <segundo>-<114>; <pensamento>-<115>; <sistema>-<119>; <modo>-<129>; <condição>-<133>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <relação>-<89>; <respeito>-<90>; <vista>-<95>; <wittgenstein>-<95>; <maneira>-<95>; <possível>-<95>; <teoria>-<192>; <pode>-<96>; <princípio>-<97>; 
+
+Está presente no texto 5
+e também é um dos top K elementos.
+Frequência: 134 vezes
+
+arvore binaria: 
+
+<determinação>-<134>; <geral>-<134>; <longo>-<134>; <modo>-<134>; <educação>-<134>; <condições>-<134>; <formação>-<134>; <podemos>-<134>; <importância>-<134>; <política>-<198>; <processo>-<198>; <eleitores>-<199>; <metas>-<199>; <sentido>-<200>; <atual>-<201>; <saúde>-<201>; <melhoria>-<201>; <assim>-<201>; <políticas>-<267>; <político>-<400>; 
+
+arvore AVL: 
+
+<modo>-<134>; <condições>-<134>; <podemos>-<134>; <importância>-<134>; <formação>-<134>; <educação>-<134>; <sentido>-<200>; <processo>-<198>; <geral>-<134>; <longo>-<134>; <determinação>-<134>; <metas>-<199>; <política>-<198>; <eleitores>-<199>; <saúde>-<201>; <melhoria>-<201>; <assim>-<201>; <políticas>-<267>; <atual>-<201>; <político>-<400>; 
+
+arvore Huffman: 
+
+<política>-<198>; <metas>-<199>; <eleitores>-<199>; <sentido>-<200>; <político>-<400>; <saúde>-<201>; <melhoria>-<201>; <assim>-<201>; <atual>-<201>; <políticas>-<267>; <determinação>-<134>; <longo>-<134>; <modo>-<134>; <importância>-<134>; <geral>-<134>; <educação>-<134>; <formação>-<134>; <condições>-<134>; <podemos>-<134>; <processo>-<198>; 
+
+Está presente no texto 6
+e também é um dos top K elementos.
+Frequência: 134 vezes
+
+arvore binaria: 
+
+<condições>-<133>; <atual>-<133>; <importante>-<133>; <expansão>-<133>; <ressaltar>-<133>; <sobre>-<133>; <modo>-<134>; <pode>-<134>; <melhoria>-<134>; <estabelecimento>-<134>; <podemos>-<134>; <quadros>-<134>; <necessidade>-<134>; <sistema>-<134>; <importância>-<134>; <formas>-<134>; <informações>-<134>; <assim>-<199>; <sentido>-<200>; <processo>-<200>; 
+
+arvore AVL: 
+
+<condições>-<133>; <expansão>-<133>; <ressaltar>-<133>; <sobre>-<133>; <atual>-<133>; <importante>-<133>; <estabelecimento>-<134>; <sistema>-<134>; <formas>-<134>; <informações>-<134>; <importância>-<134>; <quadros>-<134>; <necessidade>-<134>; <podemos>-<134>; <assim>-<199>; <pode>-<134>; <melhoria>-<134>; <modo>-<134>; <sentido>-<200>; <processo>-<200>; 
+
+arvore Huffman: 
+
+<estabelecimento>-<134>; <melhoria>-<134>; <modo>-<134>; <importância>-<134>; <quadros>-<134>; <podemos>-<134>; <sistema>-<134>; <informações>-<134>; <pode>-<134>; <assim>-<199>; <sentido>-<200>; <processo>-<200>; <ressaltar>-<133>; <expansão>-<133>; <condições>-<133>; <importante>-<133>; <sobre>-<133>; <atual>-<133>; <formas>-<134>; <necessidade>-<134>; 
+
+----------------------------------
+
+---palavra <mindset>---
+
+Não está presente no texto 1.
+
+Não está presente no texto 2.
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <linkedin>---
+
+Não está presente no texto 1.
+
+Não está presente no texto 2.
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <redes>---
+
+Está presente no texto 1
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<sentido>-<134>; <utilizados>-<134>; <integridade>-<134>; <rede>-<134>; <envolvidos>-<134>; <tempo>-<199>; <assim>-<199>; <hardware>-<199>; <melhor>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <impacto>-<200>; <aumento>-<200>; <informações>-<201>; <ti>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore AVL: 
+
+<melhor>-<200>; <assim>-<199>; <utilizados>-<134>; <rede>-<134>; <envolvidos>-<134>; <integridade>-<134>; <sentido>-<134>; <hardware>-<199>; <impacto>-<200>; <tempo>-<199>; <aumento>-<200>; <desenvolvimento>-<200>; <sistema>-<200>; <ti>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <informações>-<201>; <segurança>-<268>; <utilização>-<399>; 
+
+arvore Huffman: 
+
+<sistema>-<200>; <desenvolvimento>-<200>; <aumento>-<200>; <impacto>-<200>; <melhor>-<200>; <ti>-<201>; <informações>-<201>; <novas>-<201>; <dados>-<201>; <implantação>-<266>; <sentido>-<134>; <integridade>-<134>; <utilizados>-<134>; <envolvidos>-<134>; <segurança>-<268>; <rede>-<134>; <assim>-<199>; <tempo>-<199>; <hardware>-<199>; <utilização>-<399>; 
+
+Está presente no texto 2
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<problemas>-<134>; <dúvidas>-<134>; <existem>-<134>; <pode>-<134>; <sobre>-<134>; <impacto>-<199>; <sistema>-<199>; <desenvolvimento>-<199>; <novas>-<199>; <tempo>-<199>; <hardware>-<200>; <informações>-<200>; <dados>-<201>; <aumento>-<201>; <ti>-<201>; <assim>-<201>; <melhor>-<201>; <implantação>-<267>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore AVL: 
+
+<novas>-<199>; <dúvidas>-<134>; <pode>-<134>; <sobre>-<134>; <existem>-<134>; <problemas>-<134>; <tempo>-<199>; <assim>-<201>; <informações>-<200>; <sistema>-<199>; <desenvolvimento>-<199>; <impacto>-<199>; <hardware>-<200>; <melhor>-<201>; <implantação>-<267>; <aumento>-<201>; <ti>-<201>; <dados>-<201>; <segurança>-<268>; <utilização>-<400>; 
+
+arvore Huffman: 
+
+<utilização>-<400>; <informações>-<200>; <hardware>-<200>; <dados>-<201>; <melhor>-<201>; <ti>-<201>; <aumento>-<201>; <assim>-<201>; <implantação>-<267>; <dúvidas>-<134>; <sobre>-<134>; <problemas>-<134>; <existem>-<134>; <segurança>-<268>; <pode>-<134>; <sistema>-<199>; <impacto>-<199>; <tempo>-<199>; <novas>-<199>; <desenvolvimento>-<199>; 
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <mercado>---
+
+Não está presente no texto 1.
+
+Não está presente no texto 2.
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <tecnólogo>---
+
+Não está presente no texto 1.
+
+Não está presente no texto 2.
+
+Não está presente no texto 3.
+
+Não está presente no texto 4.
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.
+
+----------------------------------
+
+---palavra <filosofia>---
+
+Não está presente no texto 1.
+
+Não está presente no texto 2.
+
+Está presente no texto 3
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<princípio>-<91>; <virtual>-<93>; <assim>-<94>; <maneira>-<95>; <pode>-<95>; <wittgenstein>-<95>; <quanto>-<95>; <vista>-<96>; <imanente>-<104>; <sentido>-<110>; <segundo>-<114>; <sobre>-<114>; <pensamento>-<115>; <sistema>-<115>; <priori>-<125>; <modo>-<129>; <mundo>-<134>; <condição>-<134>; <sujeito>-<158>; <teoria>-<176>; 
+
+arvore AVL: 
+
+<pode>-<95>; <assim>-<94>; <virtual>-<93>; <princípio>-<91>; <wittgenstein>-<95>; <quanto>-<95>; <pensamento>-<115>; <sentido>-<110>; <vista>-<96>; <maneira>-<95>; <imanente>-<104>; <segundo>-<114>; <sobre>-<114>; <sistema>-<115>; <mundo>-<134>; <modo>-<129>; <priori>-<125>; <condição>-<134>; <sujeito>-<158>; <teoria>-<176>; 
+
+arvore Huffman: 
+
+<imanente>-<104>; <sentido>-<110>; <sobre>-<114>; <segundo>-<114>; <sistema>-<115>; <pensamento>-<115>; <priori>-<125>; <modo>-<129>; <condição>-<134>; <mundo>-<134>; <sujeito>-<158>; <teoria>-<176>; <princípio>-<91>; <virtual>-<93>; <assim>-<94>; <quanto>-<95>; <wittgenstein>-<95>; <pode>-<95>; <maneira>-<95>; <vista>-<96>; 
+
+Está presente no texto 4
+porém não é um dos top K elementos.
+
+arvore binaria: 
+
+<relação>-<89>; <respeito>-<90>; <maneira>-<95>; <wittgenstein>-<95>; <vista>-<95>; <possível>-<95>; <pode>-<96>; <princípio>-<97>; <imanente>-<109>; <sentido>-<111>; <segundo>-<114>; <sobre>-<114>; <pensamento>-<115>; <sistema>-<119>; <modo>-<129>; <condição>-<133>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <teoria>-<192>; 
+
+arvore AVL: 
+
+<princípio>-<97>; <vista>-<95>; <respeito>-<90>; <relação>-<89>; <possível>-<95>; <maneira>-<95>; <wittgenstein>-<95>; <pode>-<96>; <condição>-<133>; <segundo>-<114>; <sentido>-<111>; <imanente>-<109>; <sobre>-<114>; <sistema>-<119>; <pensamento>-<115>; <modo>-<129>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <teoria>-<192>; 
+
+arvore Huffman: 
+
+<imanente>-<109>; <sentido>-<111>; <sobre>-<114>; <segundo>-<114>; <pensamento>-<115>; <sistema>-<119>; <modo>-<129>; <condição>-<133>; <mundo>-<144>; <priori>-<144>; <sujeito>-<154>; <relação>-<89>; <respeito>-<90>; <vista>-<95>; <wittgenstein>-<95>; <maneira>-<95>; <possível>-<95>; <teoria>-<192>; <pode>-<96>; <princípio>-<97>; 
+
+Não está presente no texto 5.
+
+Não está presente no texto 6.

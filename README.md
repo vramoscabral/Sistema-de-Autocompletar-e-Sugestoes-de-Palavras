@@ -14,14 +14,14 @@ O sistema que apresenta o resultado das análises em cada pesquisa com três tip
 
 # Estruturas de Dados
 
-## Árvore binária
+```Árvore binária```
 
 Uma árvore binária é uma estrutura de dados onde cada nó (elemento) possui um conteúdo, e dois ponteiros, uma para o "filho" esquerdo e outra para o direito. Os "filhos" são as ramificações da árvore (daí o nome binária), e o conteúdo do primeiro elemento (topo ou raiz) serve de critério para a inserção de outros nós. Se o valor do item for menor que o da nó folha, vai para a esquerda, se for maior vai para a direita, e assim até encontrar um local vazio para ser armazenado. Como nessa atividade, o conteúdo da árvore são os Top K elementos, cada nó posssui uma pair de string (palavra) e int (frequência), e a frequência é o critério de inserção. Como pode ocorrer de palavras possuírem a mesma frequência, essa situação foi tratada considerando a inserção do filho esquerdo como menor ou igual, invés de menor.
 
 ![av_bin](https://github.com/vramoscabral/Sistema-de-Autocompletar-e-Sugestoes-de-Palavras/assets/127407951/096c63ee-0774-42f0-8905-da013a30102b)
 exemplo de árvore binária
 
-## AVL
+```AVL```
 
 Recebe esse nome por conta de seus criadores Adelson Velsky e Landis. Também é uma árvore binária, mas com um diferencial, ela é balanceada. O problema da árvore binária comum é o fato de apenas inserir itens sem balancear árvore tornando a pesquisa menos custosa. Um exemplo disso é quando a cada vez que um item for inserido, seu valor é menor. Na inserção da árvore comum, ela vai ser ramificada só pela esquerda, sem nenhum "filho direito", o que acaba fazendo com que a árvore tenha o comportamento de uma lista encadeada, onde um item aponta para o outro. No propósito da árvore em se ramificar e tornar mais fácil a pesquisa, era necessário que ela fosse balanceada para resolver esse problema.
 

@@ -37,8 +37,6 @@ class TreeAVL {
     NoAVL* rotesq(NoAVL* x);
 
     void insert(priority_queue<Item> heap);
-    int atualizalturas(NoAVL* atual);
-    void balancear(NoAVL* &atual);
     NoAVL* avlinsert(NoAVL* raiz, pair<string, int> item);
     void printdelavb();
     void vecpreOrder(NoAVL* atual);

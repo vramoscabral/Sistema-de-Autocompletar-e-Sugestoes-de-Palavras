@@ -38,7 +38,7 @@ exemplo de avl
 - Depois disso, é criado um heap (priority_queue) contendo string e int para cada uma das hashs, e nelas serão armazenadas as top K palavras mais relevantes. As 6 heaps serão armazenadas em um vector de heapsoriginais, que vão servir de base para a operação de pesquisa. Aqui também terá um vector de palavras topK+1, porque essa palavra depois da última vai ser utilizada na operação de pesquisa para substituir a palavra que for encontrada no heap.
 - Então será percorrido o vector de termos, pra que cada palavra seja pesquisada. Cada palavra vai ser pesquisada nos 6 textos e seus resultados irão pro output. Inicialmente é verificado se a palavra está ou não no texto, se ela estiver então será verificado se a palavra está no heap top K ou não. Se estiver, essa palavra vai ser removida do heap e a topK + 1 será inserida, caso contrário a heap original se mantém. Quando a palavra está no texto, após as verificações, a heap modificada ou original vai gerar três árvores (binária, AVL e Huffman), e seus resultados irão ao output. Depois que cada palavra for analisada, o código encerra. Nada é printado no terminal, apenas no arquivo "output.txt"
 - Em cada arquivo de implementação das 3 árvores, foi usado uma struct para representar o conteúdo e os ponteiros de cada Nó, e uma classe para a árvore e suas operações.
-- 
+  
 ## Arquivos
 
 * ```main.cpp```: Arquivo e função principal do código;

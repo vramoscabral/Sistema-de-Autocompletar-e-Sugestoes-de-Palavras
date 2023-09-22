@@ -16,6 +16,7 @@ O sistema que apresenta o resultado das análises em cada pesquisa com três tip
 
 ## Árvore binária
 
+![av_bin](https://github.com/vramoscabral/Sistema-de-Autocompletar-e-Sugestoes-de-Palavras/assets/127407951/096c63ee-0774-42f0-8905-da013a30102b)
 
 
 ## Implementação

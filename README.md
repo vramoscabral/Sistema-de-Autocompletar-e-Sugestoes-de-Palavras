@@ -23,13 +23,11 @@ exemplo de árvore binária
 
 ## AVL
 
-Recebe esse nome por conta de seus criadores Adelson Velsky e Landis. Também é uma árvore binária, mas com um diferencial, ela é balanceada. O problema da árvore binária comum é o fato de apenas inserir itens sem balancear árvore tornando a pesquisa menos custosa. Um exemplo disso é quando a cada vez que um item for inserido, seu valor é menor. Na inserção da árvore comum, ela vai ser ramificada só pela esquerda, sem nenhum "filho direito", o que acaba fazendo com que a árvore tenha o comportamento de uma lista encadeada, onde um item aponta para o outro. No propósito da árvore em se ramificar e tornar mais fácil a pesquisa, era necessário que ela fosse balanceada para resolver esse problema. 
+Recebe esse nome por conta de seus criadores Adelson Velsky e Landis. Também é uma árvore binária, mas com um diferencial, ela é balanceada. O problema da árvore binária comum é o fato de apenas inserir itens sem balancear árvore tornando a pesquisa menos custosa. Um exemplo disso é quando a cada vez que um item for inserido, seu valor é menor. Na inserção da árvore comum, ela vai ser ramificada só pela esquerda, sem nenhum "filho direito", o que acaba fazendo com que a árvore tenha o comportamento de uma lista encadeada, onde um item aponta para o outro. No propósito da árvore em se ramificar e tornar mais fácil a pesquisa, era necessário que ela fosse balanceada para resolver esse problema.
+
+
 ![avltree](https://github.com/vramoscabral/Sistema-de-Autocompletar-e-Sugestoes-de-Palavras/assets/127407951/f23fb224-e49c-474d-83d6-8a5f91d7dd70)
 exemplo de avl
-
-
-
-
 
 ## Implementação
 
@@ -38,7 +36,7 @@ exemplo de avl
 - Depois disso, é criado um heap (priority_queue) contendo string e int para cada uma das hashs, e nelas serão armazenadas as top K palavras mais relevantes. As 6 heaps serão armazenadas em um vector de heapsoriginais, que vão servir de base para a operação de pesquisa. Aqui também terá um vector de palavras topK+1, porque essa palavra depois da última vai ser utilizada na operação de pesquisa para substituir a palavra que for encontrada no heap.
 - Então será percorrido o vector de termos, pra que cada palavra seja pesquisada. Cada palavra vai ser pesquisada nos 6 textos e seus resultados irão pro output. Inicialmente é verificado se a palavra está ou não no texto, se ela estiver então será verificado se a palavra está no heap top K ou não. Se estiver, essa palavra vai ser removida do heap e a topK + 1 será inserida, caso contrário a heap original se mantém. Quando a palavra está no texto, após as verificações, a heap modificada ou original vai gerar três árvores (binária, AVL e Huffman), e seus resultados irão ao output. Depois que cada palavra for analisada, o código encerra. Nada é printado no terminal, apenas no arquivo "output.txt"
 - Em cada arquivo de implementação das 3 árvores, foi usado uma struct para representar o conteúdo e os ponteiros de cada Nó, e uma classe para a árvore e suas operações.
-  
+
 ## Arquivos
 
 * ```main.cpp```: Arquivo e função principal do código;
@@ -52,20 +50,30 @@ exemplo de avl
 
 ## Funções
 
-* ```void stopwords()```: A primeira função que executada na main, ela abre o arquivo das stopwords, e armazena todas em um vector de string (vector<string> stopword);
+```metodo.cpp```
+
+* ```void stopwords_termos()```: A primeira função que executada na main, abre o arquivo das stopwords e armazena todas em um vector de string (vector<string> stopword), e também abre o input e armazena as palavras em vector<string> termos;
 * ```bool ehstopword(string word)```: Função booleana que recebe uma palavra que está sendo verificada na função de mapeamento e retorna se ela é ou não uma stop word;
-* ```void mapeamento()```: É a função responsável por colocar todas as palavras na hash. Inicialmente é aberto o arquivo de texto e depois começa um loop do tipo while para fazer a leitura, e essa função deixa todas as palavras em letra mínuscula e são retiradas pontuações como "(", ")", ".", "-". A palavra em questão vai ser testada, se não for vazia e nem stopword, é colocada como array do heap e o int de contagem é incrementado.
-* ```void topKitens()```: Após o mapeamento e contagem de todas as palavras, um loop até 20 é iniciado para colocar os primeiros itens que estão na hash, sejam eles os maiores ou não, e então um novo loop é iniciado, e este vai percorrer palavra por palavra e comparar o contador de cada uma com a palavra da heap que apareceu menos. Se a palavra do loop tiver maior contador, a palavra com menos contagem é removida do heap e é substituída.
-* ```void heapfinal()```: A função anterior usava um heap que ordenava os elementos crescentemente para facilitar as operações, essa função de heapfinal transfere os elementos da heap crescente e coloca em uma heap em ordem decrescente, e após isso é mostrado no terminal o resultado final de todas as operações do programa.
+* ```void mapeamento()```: É a função responsável por colocar todas as palavras na hash. Com um loop for de 6 iterações, pois cada hash é montada a partir de um texto e é adicionada ao vector<unordered_map<string, int>> wordtxtsCounts (vector de hashs). Inicialmente é aberto o arquivo de texto e depois começa um loop do tipo while para fazer a leitura, e essa função deixa todas as palavras em letra mínuscula e são retiradas pontuações como "(", ")", ".", "-". A palavra em questão vai ser testada, se não for vazia e nem stopword, é colocada como array do heap e o int de contagem é incrementado.
+* ```void topKitens()```: Após o mapeamento pra pegar todas as palavras das 6 hashs, entra em um loop para montar as 6 heaps e salvá-las em vector<priority_queue<Item>> heapsoriginais, (Item é uma struct de string, int, e o operador de ordem crescente). Em cada iteração um loop até K(no caso 20) é iniciado para colocar os primeiros itens que estão na hash, sejam eles os maiores ou não, e então um novo loop é iniciado, e este vai percorrer palavra por palavra e comparar o contador de cada uma com a palavra da heap que apareceu menos. Se a palavra do loop tiver maior contador, a palavra com menos contagem é removida do heap e é substituída. A cada iteração de inserção de palavra na heap, a palavra que sai é atríbuida ao elemento topK+1, ao final da inserção o item de K+1 maior valor de frequência é inserido em extern vector<pair<string, int>> topKplus1;
+* ```void pesquisatermos()```: Nessa função é iniciado um loop que vai até o tamanho do vector de termos (ou seja, a quantidade de palavras do input), e é aberto um arquivo de output pra cada palavra para o registrar o resultado da pesquisa, e a cada iteração, cada palavra entra em um loop para ser analisada nos 6 textos. Primeiramente a palavra é procurada na hash do texto a ser iterado, se não estiver, é printado no output que a palavra não está no texto e o próximo texto é chamado. Se a palavra estiver no texto, ela vai ser procurada na heap original daquele texto, se for uma das top K palavras, a palavra é retirada do heap de top K e é colocado a top K+1. Caso contrário a heap se mantém, e é printado no output que a palavra está (ou não) na heap e a sua frequência. Após isso a heap modificada ou original irá ser levada às três árvores do algoritmo (binária, AVL e Huffman), e após as operações de cada árvore, pega um vector com a árvore em pré-ordem para ser printado no output específico de cada palavra.
+* ```void Output()```: Última função chamada na main. Cada palavra gerou um arquivo outN.data, de 1 até N(quantidade de termos de pesquisa), e essa função é responsável por juntar dentro de um único arquivo output.txt, todas as informações que foram geradas pelas operações desse sistema e armazenadas anteriormente nos arquivos output específicos. Todos os arquivos output temporários gerados durante a execução são removidos.
+
+```arvore.cpp```
+
+* ```void arvorebinsert(pair<string, int> item)```: Função que recebe cada item da heap de maneira individual e insere na árvore binária. Usando o int da pair como critério de inserção.
+* ```vector<pair<string, int>> arvoreb(priority_queue<Item> heap)```: Função fora da classe que é responsável por receber diretamente da função pesquisatermos() do metodo.cpp a heap que é inserida na árvore binária. Também chama a função de pegar a pré-Ordem da árvore e de remover a árvore, ao final retorna o vector da pré-Ordem.
+
+```avl.cpp```
+
+```huffman.cpp```
 
 ## Exemplos da execução
 
 
 ## Conclusão
 
-O foco desse programa ao utilizar uma hash e posteriormente o heap, foi considerar as palavras (elementos) mais presentes no texto, logo o critério de comparação das operações foi o valor da contagem de vezes em que as palavras apareciam.
-
-Esse programa permite que o usuário possa ter uma noção do que é mais relevante e crucial a fim de orientar no entendimento do texto todo e sobre o que ele trata.
+Esse sistema se mostra eficiente em mostrar ao usuário o que há de mais importante e relevante em cada texto, além de permitir que sejam colocadas quantas palavras forem necessárias para serem procuradas em cada um dos textos, e que seja definida a quantidade de palavras mais relevantes a serem mostradas na análise.
 
 ## Compilação e Execução
 

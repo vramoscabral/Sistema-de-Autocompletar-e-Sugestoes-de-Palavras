@@ -16,7 +16,14 @@ O sistema que apresenta o resultado das análises em cada pesquisa com três tip
 
 ## Árvore binária
 
+Uma árvore binária é uma estrutura de dados onde cada nó (elemento) possui um conteúdo, e dois ponteiros, uma para o "filho" esquerdo e outra para o direito. Os "filhos" são as ramificações da árvore (daí o nome binária), e o conteúdo do primeiro elemento (topo ou raiz) serve de critério para a inserção de outros nós. Se o valor do item for menor que o da nó folha, vai para a esquerda, se for maior vai para a direita, e assim até encontrar um local vazio para ser armazenado. Como nessa atividade, o conteúdo da árvore são os Top K elementos, cada nó posssui uma pair de string (palavra) e int (frequência), e a frequência é o critério de inserção. Como pode ocorrer de palavras possuírem a mesma frequência, essa situação foi tratada considerando a inserção do filho esquerdo como menor ou igual, invés de menor.
+
 ![av_bin](https://github.com/vramoscabral/Sistema-de-Autocompletar-e-Sugestoes-de-Palavras/assets/127407951/096c63ee-0774-42f0-8905-da013a30102b)
+
+## AVL
+
+![avltree](https://github.com/vramoscabral/Sistema-de-Autocompletar-e-Sugestoes-de-Palavras/assets/127407951/f23fb224-e49c-474d-83d6-8a5f91d7dd70)
+
 
 
 ## Implementação
